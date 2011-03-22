@@ -1,9 +1,14 @@
 "fileformat=dos
 syntax on 
+colorschem blue
+
+"for python
+autocmd FileType python setl autoindent
+autocmd FileType python setl smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
+autocmd FileType python setl tabstop=8 expandtab shiftwidth=4 softtabstop=4
 
 "edit
 set autoindent
-set cindent
 set nu
 set nocompatible
 set backspace=indent,eol,start
