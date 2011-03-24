@@ -18,6 +18,9 @@ set incsearch
 set showmatch
 set list
 
+filetype plugin on
+filetype indent on
+
 "tab
 set tabstop=4
 set expandtab
@@ -29,3 +32,5 @@ set nowrap
 "cmdline
 set wildmenu
 
+" neocomplcache
+let g:neocomplcache_enable_at_startup = 1 " ‹N“®Žž‚É—LŒø‰»
